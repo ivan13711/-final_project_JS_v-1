@@ -1,0 +1,65 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content: space-between;
+    padding: 15px;
+
+}
+.nav_left_section{
+    display:  flex;
+}
+.modal_area{
+
+    position: absolute;
+    background-color: rgb(20, 20, 20, 0.5);
+    width: 100%;
+    height: 100%;
+    top: -200vh;
+}
+.Autoriz_modal{
+    padding: 20px;
+    position: relative;
+    background-color: rgb(255, 255, 255);
+    border: 2px solid black;
+    border-radius: 4%;
+    display: flex;
+    flex-direction: column;
+     top: calc(50% - 25vh);
+     left: calc(50% - 20vw);
+    width: 30vw;
+}
+.Autoriz_modal input  { 
+  margin: 10px;
+}
+.nav_left_section svg{
+ fill: blanchedalmond;   
+ width: 40px;
+ height: 40px;
+ padding-left: 30px;
+}
+header{
+    background-color: black;
+    color: blanchedalmond;
+    font-size: 20px;
+}
+nav ul  {
+    display: flex;
+  
+}
+ul li {
+    margin: 25px;
+}
+.content{
+    height: 75vh;
+
+}
+footer{
+    background-color: black;
+    color: blanchedalmond;  
+    height: 10vh;
+}
