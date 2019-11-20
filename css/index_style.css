@@ -19,7 +19,7 @@ header{
     background-color: rgb(20, 20, 20, 0.5);
     width: 100%;
     height: 100%;
-    top: -200vh;
+    /*top: -200vh;*/
 }
 .Autoriz_modal{
     padding: 20px;
