@@ -1,6 +1,12 @@
-let form = document.forms.autoriz;
-let name = form.elements.FirstName;
-alert(name.value)
 
-const btn =document.getElementById('p1btn')
-router.add()
+
+let button = document.getElementById('submit')
+
+   
+    
+     button.onclick = function Get_autoriz( ) {
+        let name = document.autoriz.FirstName.value;
+        let LastName = document.autoriz.LastName.value    
+        let Foto = document.autoriz.Foto.value
+        alert(name + '' +LastName)
+    }
