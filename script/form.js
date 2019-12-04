@@ -18,9 +18,9 @@ const NewObject = (arr) => {
      let value= arr[i].value 
      userData[name] = value
  }
-return userData
+return this.userData
     }
-    let getUserData = NewObject(inputArr).userData
+    let getUserData = NewObject.bind(inputArr)
    
     
   //Object.assign(getUserData, NewObject(inputArr) )
